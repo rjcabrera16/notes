@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="RJ Cabrera" />
+        <title>Notes</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/image/favicon.png" type="image/x-icon" />
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/75cff2eec9.js" crossorigin="anonymous"></script>
+        <!-- main css -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <div class="app">
+            <h1 class="note-h1">
+                Notes <a href="note.html" class="note-add-btn btn-primary"><i class="fa fa-plus"></i></a>
+            </h1>
+            <div class="note-filter">
+                <input type="search" name="" id="" class="note-search" placeholder=" Search" />
+                <div class="note-sort-container">
+                    <button class="note-sort-btn btn-primary">
+                        <span class="note-sort-text">Sort</span>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="note-sort-menu">
+                        <li class="note-sort-item">Last Edited</li>
+                        <li class="note-sort-item">Recently Created</li>
+                        <li class="note-sort-item">Alphabetically</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="note-item-container"></div>
+        </div>
+
+        <!-- uuid -->
+        <script src="https://cdn.tutorialjinni.com/uuid/8.3.2/uuidv4.min.js"></script>
+        <!-- moment js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script>
+        <!-- functions -->
+        <script src="assets/js/functions.js"></script>
+        <!-- main script -->
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
